@@ -1,0 +1,21 @@
+
+*{
+  /* margin: 0; */
+  /* overflow-x: hidden; */
+ font-family: "Work Sans", sans-serif;
+
+
+}
+.scroll{
+  /* display: flex;
+  flex-direction: row;
+  overflow-y: scroll; */
+  overflow-x: hidden;
+
+  /* overflow-y: scroll; */
+  scroll-snap-type: y mandatory;
+}
+
+.customCursor{
+ cursor: url("./cursor1.png") 16 16, auto;
+}

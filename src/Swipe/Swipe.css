@@ -1,0 +1,52 @@
+.cardContainer {
+  height: 70vh;
+  /* width: 100vw; */
+  position: relative;
+  display: flex;
+  overflow: hidden;
+  /* padding: 8rem 0; */
+  margin-left: -10vw;
+  margin-top: 10vh;
+  .card {
+    display: flex;
+    .cardImg {
+      height: 70vh;
+      width: 33vw;
+      margin: 0 4vw;
+
+      /* img {
+        position: relative;
+    
+      } */
+    }
+  }
+}
+@keyframes oneAnimKey {
+  0% {
+    transform: translateX(100%) scale(0.9);
+    opacity: 0.5;
+  }
+  100% {
+    transform: translateX(0%) scale(1);
+    opacity: 1;
+  }
+}
+
+@keyframes twoAnimKey {
+  0% {
+    transform: translateX(-100%) scale(0.9);
+    opacity: 0.5;
+  }
+  100% {
+    transform: translateX(0%) scale(1);
+    opacity: 1;
+  }
+}
+
+.oneAnim {
+  animation: oneAnimKey 0.6s ease-in-out;
+}
+
+.twoAnim {
+  animation: twoAnimKey 0.6s ease-in-out;
+}
